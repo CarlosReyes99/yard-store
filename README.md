@@ -30,4 +30,5 @@ Online store with web layout in HTML and CSS, using responsive web, which includ
 ## Views
 
 <img src="https://i.imgur.com/NHqRggg.png" width="15%" alt="New Password"></img> 
+<img src="https://i.imgur.com/ApLaljy.png" width="15%" alt="Email sent"></img> 
 
