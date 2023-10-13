@@ -29,9 +29,9 @@ Online store with web layout in HTML and CSS, using responsive web, which includ
 
 ## Views
 
-<img src="https://i.imgur.com/NHqRggg.png" width="15%" alt="New Password"></img> 
-<img src="https://i.imgur.com/ApLaljy.png" width="15%" alt="Email sent"></img> 
-<img src="https://i.imgur.com/MlRToNE.png" width="15%" alt="Login"></img>
-<img src="https://i.imgur.com/KvpuXYm.png" width="15%" alt="Create and update"></img>
-<img src="https://i.imgur.com/UMgfIWG.png" width="15%" alt="Create and update"></img>
+<img src="https://i.imgur.com/YTwboO2.png" width="15%" alt="New Password"></img> 
+<img src="https://i.imgur.com/gBOIoPK.png" width="15%" alt="Email sent"></img> 
+<img src="https://i.imgur.com/9dp4fsk.png" width="15%" alt="Login"></img>
+<img src="https://i.imgur.com/nu8Mcfv.png" width="15%" alt="Create and update"></img>
+<img src="https://i.imgur.com/7eqVze9.png" width="15%" alt="My account"></img>
 
