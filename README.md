@@ -34,4 +34,7 @@ Online store with web layout in HTML and CSS, using responsive web, which includ
 <img src="https://i.imgur.com/9dp4fsk.png" width="15%" alt="Login"></img>
 <img src="https://i.imgur.com/nu8Mcfv.png" width="15%" alt="Create and update"></img>
 <img src="https://i.imgur.com/7eqVze9.png" width="15%" alt="My account"></img>
+<img src="https://i.imgur.com/syl5Gkk.png" width="15%" alt="My Order"></img>
+<img src="https://i.imgur.com/dSCrist.png" width="15%" alt="My Orders"></img>
+
 
