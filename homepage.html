@@ -27,6 +27,65 @@
             background-color: var(--background);
             font-family: 'Quicksand', sans-serif;
         }
+        .cards-container{
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: space-between;
+            border: 1px solid black;
+           
+            
+        }
+        .product-card{
+            padding: 10px;
+            height: auto;
+            width: 100%;
+            border: 1px solid var(--very-light-pink);
+            
+            box-sizing: border-box;
+            
+        }
+        .product-card img{
+            
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            
+           
+        }
+        .product-card div{
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+        
+        .product-card div p{
+            font-weight: bold;
+        }
+        .product-card div button{
+            border-radius: 15px;
+            border: none;
+        }
+        .product-card div button::after{
+            content: "Agregar a carrito";
+            position: absolute;
+            
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+        .product-card div button:hover::after{
+            opacity: 1;
+        }
+
+        @media (max-width: 640px){
+            .product-card img{
+                max-width: 100%;
+                max-height: 70%;
+                height: auto;
+                width: auto;
+                justify-content: initial;
+            }
+        }
         
     </style>
 </head>
@@ -38,12 +97,12 @@
         <div class="product-card">
             <img src="https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
             <div>
-                <p>120,00</p>
+                <p>120,00</p> 
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -55,9 +114,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -69,9 +128,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -83,9 +142,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -97,9 +156,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -111,9 +170,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -125,9 +184,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -139,9 +198,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -153,9 +212,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -167,9 +226,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -181,9 +240,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -195,9 +254,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -209,9 +268,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -223,9 +282,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -237,9 +296,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -251,9 +310,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -265,9 +324,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -279,9 +338,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -293,9 +352,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -307,9 +366,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -321,9 +380,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -335,9 +394,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
@@ -349,9 +408,9 @@
                 <p>120,00</p>
                 <p>Jeans</p>
                 <div>
-                    <figure> 
+                    <button> 
                         <img src="./icons/bt_add_to_cart.svg" alt="">
-                    </figure>
+                    </button>
                 </div>
 
             </div>
